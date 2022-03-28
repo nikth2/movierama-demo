@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee">
+    <servlet>
+        <servlet-name>movies</servlet-name>
+        <jsp-file>/WEB-INF/view/movies.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>movies</servlet-name>
+        <url-pattern>/movies</url-pattern>
+    </servlet-mapping>
+
+</web-app>
