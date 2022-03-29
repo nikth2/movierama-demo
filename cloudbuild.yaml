@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'europe-docker.pkg.dev/$PROJECT_ID/eu.gcr.io/movierama-image:tag1', '.']
+  args: [ 'build', '-t', 'europe-docker.pkg.dev/$PROJECT_ID/gcr.io/movierama-image:tag1', '.']
 images:
-- 'europe-docker.pkg.dev/$PROJECT_ID/eu.gcr.io/movierama-image:tag1'
+- 'europe-docker.pkg.dev/$PROJECT_ID/gcr.io/movierama-image:tag1'
